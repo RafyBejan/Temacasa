@@ -22,6 +22,9 @@ function setup() {
     fill("green");
     rect(428,20,40,80);
     // sun fill()
+    fill("yellow");
+    circle(90,70,50);
+    fill("yellow");
     let rayLength = 60; // lungimea razei
       for (let i = 0; i < 8; i++) {
         let angle = TWO_PI / 8 * i;
